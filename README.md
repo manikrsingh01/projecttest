@@ -1,4 +1,4 @@
-### Hi there👋 I'm elyees 🧸 
+### Hi there👋 I'm Chutiya 🧸
 
 ![](https://komarev.com/ghpvc/?username=devmiano&color=green&style=for-the-badge)
 
@@ -11,19 +11,19 @@
 - 😄 Pronouns: He
 - ⚡ Fun fact: I'm a junior developer with less than 3 years experience
 
-
   # Project Outlook
- >> ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
-> This is a home workout webapp with numerous variations of exercises in GIF format built using RapidAPI & React mostly
+
+  > > ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
+  > > This is a home workout webapp with numerous variations of exercises in GIF format built using RapidAPI & React mostly
 
 make sure to test it out and help me make it better with your feedback.
 
-  ## Updating to New Releases
+## Updating to New Releases
 
 Create React App is divided into two packages:
 
-* `create-react-app` is a global command-line utility that you use to create new projects.
-* `react-scripts` is a development dependency in the generated projects (including this one).
+- `create-react-app` is a global command-line utility that you use to create new projects.
+- `react-scripts` is a development dependency in the generated projects (including this one).
 
 You almost never need to update `create-react-app` itself: it delegates all the setup to `react-scripts`.
 
@@ -35,12 +35,10 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-
- - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
-
+- [npm start](#npm-start)
+- [npm test](#npm-test)
+- [npm run build](#npm-run-build)
+- [npm run eject](#npm-run-eject)
 
 ### `npm start`
 
@@ -72,6 +70,5 @@ See the section about [deployment](#deployment) for more information.
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
