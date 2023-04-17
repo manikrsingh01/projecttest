@@ -6,7 +6,10 @@ import { exerciseOptions, fetchData, youtubeOptions } from '../utils/fetchData';
 import Detail from '../components/Detail';
 import ExerciseVideos from '../components/ExerciseVideos';
 import SimilarExercises from '../components/SimilarExercises';
-
+import Navbar from '../components/Navbar';
+import HeroBanner from '../components/HeroBanner';
+import Logo from "../assets/images/logo.png";
+import { useNavigate } from 'react-router-dom';
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [exerciseVideos, setExerciseVideos] = useState([]);
@@ -38,15 +41,36 @@ const ExerciseDetail = () => {
   }, [id]);
 
   if (!exerciseDetail) return <div>No Data</div>;
+  let navigate=useNavigate();
+  const handleClick = () =>{ 
+    let path = `/projecttest`; 
+    console.log("clicked")
+    navigate(path);
+  }
 
   return (
-    
-    <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
+    <>
+        <div className="hero left-left">
+        <div className="header">
+      <img src={Logo} alt=" " />
+      <ul className="header-menu">
+        <button className="btn-scroll btn-outline" onClick={handleClick}>Home</button>
 
+      </ul>
+    </div>
+
+      </div>
+      
+    {/* <div className="background">
+    <Navbar />
+    </div> */}
+    <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
       <Detail exerciseDetail={exerciseDetail} />
       <ExerciseVideos exerciseVideos={exerciseVideos} name={exerciseDetail.name} />
       <SimilarExercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises} />
     </Box>
+    </>
+    
   );
 };
 
