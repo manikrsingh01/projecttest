@@ -13,9 +13,9 @@ import Navbar from './components/Navbar';
 const App = () => {
   return (
     <Box width="400px" sx={{ width: { xl: '1488px'}}} m="auto">
-      {/*<Navbar />*/}
+      {/* <Navbar /> */}
       <Routes>
-        <Route path="/major-project" element={<Home />} />
+        <Route path="/projecttest" element={<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} /> 
       </Routes>
       <Reasons/>
