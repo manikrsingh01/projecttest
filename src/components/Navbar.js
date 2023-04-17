@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Stack } from '@mui/material';
 
@@ -27,4 +27,33 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default Navbar;*/
+
+import React from "react";
+import "./Navbar.css";
+import Logo from "../assets/images/logo.png";
+import { useEffect } from "react";
+import Exercises from "./Exercises";
+const Header = () => {
+  const handleClickScroll = () => {
+    const element = document.getElementById("exercises");
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <div className="header">
+      <img src={Logo} alt=" " />
+      <ul className="header-menu">
+        <button className="btn-scroll btn-outline">Home</button>
+        <button className="btn-scroll btn-outline" onClick={handleClickScroll}>
+          Programs
+        </button>
+      </ul>
+    </div>
+  );
+};
+
+export default Header;

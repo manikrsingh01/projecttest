@@ -9,7 +9,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
   justifyContent="center"
   className="bodyPart-card"
   sx={{
-    borderTop: bodyPart === item ? '4px solid #FF2625' : '', backgroundColor: '#fff', borderBottomLeftRadius: '20px', width: '270px', height: '282px', cursor: 'pointer', gap: '47px' }}
+    borderTop: bodyPart === item ? '4px solid #00bfff' : '', backgroundColor: '#fff', borderBottomLeftRadius: '20px', width: '270px', height: '282px', cursor: 'pointer', gap: '47px' }}
     onClick={() => {
       setBodyPart(item);
       window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
