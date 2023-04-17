@@ -32,11 +32,12 @@ export default Navbar;*/
 import React from "react";
 import "./Navbar.css";
 import Logo from "../assets/images/logo.png";
+import SearchExercises from "./SearchExercises";
 import { useEffect } from "react";
 import Exercises from "./Exercises";
 const Header = () => {
   const handleClickScroll = () => {
-    const element = document.getElementById("exercises");
+    const element = document.getElementById("searchexercises");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
