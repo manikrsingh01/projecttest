@@ -1,7 +1,7 @@
 {
   "name": "kooya",
   "version": "0.1.0",
-  "homepage": "https://manikrsingh01.github.io/",
+  "homepage": "https://manikrsingh01.github.io/projecttest",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",

@@ -43,7 +43,7 @@ const ExerciseDetail = () => {
   if (!exerciseDetail) return <div>No Data</div>;
   let navigate=useNavigate();
   const handleClick = () =>{ 
-    let path = `/`; 
+    let path = `/projecttest`; 
     console.log("clicked");
     navigate(path);
   }
