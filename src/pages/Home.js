@@ -4,6 +4,8 @@ import { Box } from '@mui/material';
 import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
+import Reasons from '../components/Reasons';
+import Footer from '../components/Footer';
 //import hero from '../components/Hero/hero';
 //import hero from '../components/Hero/hero.js';
 
@@ -16,8 +18,11 @@ const Home = () => {
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <Exercises setExercises={setExercises} bodyPart={bodyPart} exercises={exercises} />
+      <Reasons/>
     </Box>
   );
+  
 };
+
 
 export default Home;

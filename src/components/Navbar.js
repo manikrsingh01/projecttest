@@ -30,6 +30,7 @@ const Navbar = () => {
 export default Navbar;*/
 
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import Logo from "../assets/images/logo.png";
 import SearchExercises from "./SearchExercises";
@@ -44,6 +45,12 @@ const Header = () => {
     }
   };
 
+  const handleClick = () =>{ 
+    let path = '/BmiCalculator'; 
+    console.log("clicked");
+    navigate(path);
+  }
+
   return (
     <div className="header">
       <img src={Logo} alt=" " />
@@ -52,7 +59,13 @@ const Header = () => {
         <button className="btn-scroll btn-outline" onClick={handleClickScroll}>
           Programs
         </button>
-      </ul>
+        <Link to = "/BmiCalculator">
+          <button className="btn-scroll btn-outline">BMI</button>
+        </Link>
+        <Link to = "/Manual">
+          <button className="btn-scroll btn-outline">Manual</button>
+        </Link>
+        </ul>
     </div>
   );
 };
