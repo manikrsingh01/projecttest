@@ -1,16 +1,16 @@
-.Reasons {
-    padding-top: 0px;
-    padding-left: 0px;
+
+.Reasonss {
     background-color: white;
     
     display: flex;
     grid-template: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 .tm-section{
   background-color: #fff;
+
 }
 .row{
-  padding: auto ;
   width: 100%;
   height: auto;
   display: flex;
@@ -20,12 +20,17 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-.box1{
-  padding: 25px 25px 25px 25px;
+.tm-content-box{
 
 }
+.box1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  
+}
 .hcontent{
-  padding: 2px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 .eabout{
@@ -52,27 +57,22 @@
   
  
   
-  .right-r {
-    flex: 1 1;
-    text-transform: uppercase;
-    gap: 0rem;
-    display: flex;
-    flex-direction: column;
-  }
+ 
   
-  .details-r{
-    padding: 20px 20px 20px 20px ;
+  .boxc{
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px 10px lightblue;
 
   }
   
-  .right-r > div {
-    color: black;
-    font-size: 10px;
-    font-weight: 100;
   
+  h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
-  h2{
-    padding-bottom: 40px;
+  h4 { 
+    font-size: 1.4rem;
+    line-height: 1.6;
   }
   
 

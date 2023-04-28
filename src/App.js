@@ -10,7 +10,6 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import BmiCalculator from './pages/BmiCalculator';
 import Manual from './components/Manual';
-import Manual2 from './components/Manual2';
 
 const App = () => {
   return (

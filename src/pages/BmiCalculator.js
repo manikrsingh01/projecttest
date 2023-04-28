@@ -21,6 +21,7 @@ import { Box, Stack, Typography, TextField, Button } from '@mui/material';
 import { fetchData, BMIOptions } from '../utils/fetchData';
 import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import image1 from "../assets/images/image2.png";
 
 const BmiCalculator = () => {    
     // set state of weight,height and age
@@ -85,12 +86,15 @@ const BmiCalculator = () => {
         <Button variant="contained" color="primary" onClick={fetchBMICalData} disabled={loading}>Calculate BMI</Button>                
     </Stack>
     {BMI==="Not Calcualted" ? '' :
-    <Stack  p="80px" gap="30px" backgroundColor="#FFF" width="90%" margin="auto" mt="100px">
-        <Typography variant="h3">BMI Results</Typography>
+    <Stack  backgroundColor="#FFF" width="90%" margin="auto" mt="100px" direction="row" spacing={30}>
         <Box>
+            <Typography variant="h3">BMI Results</Typography>
             <Typography variant="h5">BMI: <span style={{color: '#ffb700', fontWeight:"600", fontSize: "40px" }}>{BMI}</span></Typography>
             <Typography variant="h5">HEALTH: <span style={{color: '#ffb700', fontWeight:"600", fontSize: "40px" }}>{health}</span></Typography>
             <Typography variant="h5">HEALTH_BMI_RANGE: <span style={{color: '#ffb700', fontWeight:"600", fontSize: "40px" }}>{healthyBmiRange}</span></Typography>
+        </Box>
+        <Box>
+            <img src={image1} />
         </Box>
     </Stack>
     }

@@ -11,24 +11,9 @@ import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 const Manual = () => {
   return (
-    
-    
-
-
-
-
-
-
-
-
-
-    
-    <div className="Reasons" id="reasons">
-        
+    <div className="Reasonss" id="reasonss">
       
-
-
-      <div className="right-r">
+      <div className="rightr">
       
       <div className="hero left-left">
         <div className="header">
@@ -40,13 +25,11 @@ const Manual = () => {
     </div>
 
       </div>
-
-
       <section class="tm-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="hcontent">
-                        <h2 class="tm-gold-text tm-title">WarmUp Exercises</h2>
+                        <h1 class="tm-gold-text tm-title">WarmUp Exercises</h1>
                         <p class="tm-subtitle">Warming up increases your heart rate and therefore your blood flow. This enables more oxygen to reach your muscles. A warm-up also activates and primes the connections between your nerve and muscles, which improves the efficiency of movement.</p>
                     </div>
                 </div>
@@ -95,8 +78,6 @@ const Manual = () => {
 
                     </div>
                 </div>
-
-                
             </div>
         </section>
 
@@ -106,13 +87,15 @@ const Manual = () => {
           
           <h2>FEW TERMINOLOGIES YOU SHOULD KNOW AS A BEGINNER </h2>
         </div>
-        <div className="details-r">
-            <div >
+        <div className="detailsr">
+        
+          <div >
                 <h4>AMRAP</h4>
             </div>
           <div>
             <p >AMRAP is a workout acronym popularized by the CrossFit circuit, though it is used in any strength training program. It stands for “as many repetitions as possible,” which means that instead of performing a certain number of reps in a set, you either do as many as possible in a given amount of time or truly as many as you can do to failure</p>
           </div>
+          
           <div >
                 <h4>Bulking</h4>
             </div>
