@@ -1,7 +1,7 @@
 export const exerciseOptions = {
   method: 'GET',
   headers: {
-  'X-RapidAPI-Key': "d80bdf802bmsh34a243f0a4aef1ap119b91jsna5b1c792b125",
+  'X-RapidAPI-Key': "360a0e501dmsh5796a044c734d84p1152c2jsn40c4c2499c7a",
     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
 }
 }
@@ -9,7 +9,7 @@ export const exerciseOptions = {
 export const youtubeOptions = {
 method: 'GET',
 headers: {
-'X-RapidAPI-Key': "d80bdf802bmsh34a243f0a4aef1ap119b91jsna5b1c792b125",
+'X-RapidAPI-Key': "360a0e501dmsh5796a044c734d84p1152c2jsn40c4c2499c7a",
 'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
 }
 };
@@ -17,7 +17,7 @@ headers: {
 export const BMIOptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': "d80bdf802bmsh34a243f0a4aef1ap119b91jsna5b1c792b125",
+		'X-RapidAPI-Key': "360a0e501dmsh5796a044c734d84p1152c2jsn40c4c2499c7a",
 		'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
 	}
 };
