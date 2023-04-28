@@ -1,19 +1,3 @@
-// Find body mass index value (BMI) with this endpoint.
-//  You just need to enter three parameters which are age, weight (kg), and height(cm) information.
-
-// url with
-// const BMICalUrl = 'https://fitness-calculator.p.rapidapi.com/bmi?age=25&weight=65&height=180';
-
-// {3 items
-//     "status_code":200
-//     "request_result":"Successful"
-//     "data":{3 items
-//     "bmi":20.06
-//     "health":"Normal"
-//     "healthy_bmi_range":"18.5 - 25"
-//     }
-// }
-
 import React, { useEffect, useState} from 'react';
 import Navbar from '../components/Navbar';
 import Logo from "../assets/images/logo.png";
@@ -22,6 +6,7 @@ import { fetchData, BMIOptions } from '../utils/fetchData';
 import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import image1 from "../assets/images/image2.png";
+import image2 from "../assets/images/ebmi.jpeg";
 
 const BmiCalculator = () => {    
     // set state of weight,height and age
@@ -72,7 +57,7 @@ const BmiCalculator = () => {
         <div className="header">
       <img src={Logo} alt=" " />
       <ul className="header-menu">
-        <NavLink to="/projecttest" className="btn-scroll btn-outline" >Home</NavLink>
+        <NavLink to="/projecttest" style={{textDecoration: 'none'}} className="btn-scroll btn-outline" >Home</NavLink>
 
       </ul>
     </div>
@@ -94,7 +79,7 @@ const BmiCalculator = () => {
             <Typography variant="h5">HEALTH_BMI_RANGE: <span style={{color: '#ffb700', fontWeight:"600", fontSize: "40px" }}>{healthyBmiRange}</span></Typography>
         </Box>
         <Box>
-            <img src={image1} />
+            <img src={image2} />
         </Box>
     </Stack>
     }

@@ -22,6 +22,10 @@
 }
 .tm-content-box{
 
+
+}
+.h2{
+  margin-bottom: 20px;
 }
 .box1{
   margin-top: 50px;
@@ -60,8 +64,10 @@
  
   
   .boxc{
+    margin: 30px 30px 30px 30px;
     padding-top: 20px;
-    box-shadow: 10px 10px 10px 10px lightblue;
+ 
+    border-radius: 10px;
 
   }
   
@@ -73,6 +79,9 @@
   h4 { 
     font-size: 1.4rem;
     line-height: 1.6;
+  }
+  h5{
+    padding-bottom: 10px;
   }
   
 

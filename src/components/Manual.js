@@ -19,7 +19,7 @@ const Manual = () => {
         <div className="header">
       <img src={Logo} alt=" " />
       <ul className="header-menu">
-        <NavLink to="/projecttest" className="btn1" >Home</NavLink>
+        <NavLink to="/projecttest" className="btn1" style={{textDecoration: 'none'}} >Home</NavLink>
 
       </ul>
     </div>
@@ -85,71 +85,98 @@ const Manual = () => {
        <div class="dcontent">
         <div>
           
-          <h2>FEW TERMINOLOGIES YOU SHOULD KNOW AS A BEGINNER </h2>
+          <h2 class="h2">FEW TERMINOLOGIES YOU SHOULD KNOW AS A BEGINNER </h2>
         </div>
         <div className="detailsr">
-        
+        <div class="boxc">
           <div >
-                <h4>AMRAP</h4>
+                <h5>AMRAP</h5>
             </div>
           <div>
             <p >AMRAP is a workout acronym popularized by the CrossFit circuit, though it is used in any strength training program. It stands for “as many repetitions as possible,” which means that instead of performing a certain number of reps in a set, you either do as many as possible in a given amount of time or truly as many as you can do to failure</p>
           </div>
-          
+          </div>
+          <div class="boxc">
           <div >
-                <h4>Bulking</h4>
+                <h5>Bulking</h5>
             </div>
           <div>
             <p>Bulking is mainly used in bodybuilding circles to describe trying to focus your diet toward gaining muscle mass. </p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-               <h4>Cheating</h4>
+               <h5>Cheating</h5>
             </div>
           <div>
             <p>In terms of workout, cheating usually means you are using the wrong form to eke out extra reps by using improper technique.
 </p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-              <h4>Cutting</h4>
+              <h5>Cutting</h5>
             </div>
           <div>
             <p>The cutting phase is the difficult phase of the bodybuilding diet that entails restricting calories to try and lose additional body fat and better meet physique goals or qualify for a lower weight class.</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-                <h4>Drop Set</h4>
+                <h5>Drop Set</h5>
             </div>
           <div>
             <p>A drop set is an advanced strength training technique designed to maximize potential hypertrophy or muscle growth. It involves a set of a given exercise until failure, then reducing the weight or resistance that you are using by 10 to 30% and then immediately beginning another set, again until failure</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-              <h4>Gains</h4>
+              <h5>Gains</h5>
             </div>
           <div>
             <p>The gym word “gains” is almost always used in terms of building muscle mass (also called hypertrophy) and muscle strength, but it can also refer to improvements in any aspect of fitness, including cardio.</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-                <h4>Macros</h4>
+                <h5>Macros</h5>
             </div>
           <div>
             <p>Macros is a gym slang term used in the bodybuilding circuit as shorthand for  “macronutrients,” to describe how much protein, fat, and carbohydrates you are or aren’t eating in your diet</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-                <h4>Plates</h4>
+                <h5>Plates</h5>
             </div>
           <div>
             <p>Plates refer to the disc-shaped weight plates that you load onto a barbell.</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-               <h4>Rep</h4>
+               <h5>Rep</h5>
             </div>
           <div>
             <p>Short for “repetition,” a rep is one complete movement of a given exercise. For most strength training exercises, this would entail beginning at the starting position, lifting the weight up, and then lowering the weight all the way back down.</p>
           </div>
+          </div>
+          <div class="boxc">
           <div >
-          <h4>Set</h4>
+          <h5>Set</h5>
             </div>
           <div>
             <p>Another essential workout term is “set.“ This refers to a group of repetitions of a single exercise performed together. </p>
+          </div>
+          </div>
+
+          <div class="boxc">
+          <div >
+          <h5>Bup</h5>
+            </div>
+          <div>
+            <p>It is stand for bottom up press. It teaches the body how to stabilize and force the shoulder to find the most stable pathway. </p>
+          </div>
           </div>
           
         </div>
