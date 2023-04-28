@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projecttest/static/css/main.6ff54807.css",
-    "main.js": "/projecttest/static/js/main.d76ab1f5.js",
+    "main.css": "/projecttest/static/css/main.533637e3.css",
+    "main.js": "/projecttest/static/js/main.5df29fd2.js",
     "static/media/hero_image_test.png": "/projecttest/static/media/hero_image_test.e19ac0c6b1009c7280f5.png",
     "static/media/Arm-Circles_Shoulders.gif": "/projecttest/static/media/Arm-Circles_Shoulders.7b90a5bbcd87726ac9e7.gif",
     "static/media/image1.png": "/projecttest/static/media/image1.1091417d32e491f0bbb6.png",
@@ -11,15 +11,16 @@
     "static/media/side-leg-swings.gif": "/projecttest/static/media/side-leg-swings.bacbeb1858883b779712.gif",
     "static/media/image3.png": "/projecttest/static/media/image3.69484cb0ee7687a8c28b.png",
     "static/media/image4.png": "/projecttest/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/ebmi.jpeg": "/projecttest/static/media/ebmi.0d5892e07f59ad2c3d39.jpeg",
     "static/media/Logo-1.png": "/projecttest/static/media/Logo-1.7a48f1d09d9cf9ac3081.png",
     "static/media/logo.png": "/projecttest/static/media/logo.f48b04b21a3849007653.png",
     "static/media/gym.png": "/projecttest/static/media/gym.2f16d4e3dafa49e899f6.png",
     "index.html": "/projecttest/index.html",
-    "main.6ff54807.css.map": "/projecttest/static/css/main.6ff54807.css.map",
-    "main.d76ab1f5.js.map": "/projecttest/static/js/main.d76ab1f5.js.map"
+    "main.533637e3.css.map": "/projecttest/static/css/main.533637e3.css.map",
+    "main.5df29fd2.js.map": "/projecttest/static/js/main.5df29fd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ff54807.css",
-    "static/js/main.d76ab1f5.js"
+    "static/css/main.533637e3.css",
+    "static/js/main.5df29fd2.js"
   ]
 }
